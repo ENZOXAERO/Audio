@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer player;
     Spinner ddlEnglish, ddlSpanish;
 
-    String soundUrl = "http://soundfxcenter.com/human/speech/8d82b5_The_Number_1_Sound_Effect.mp3";
-
      Map<String, String> sounds = new HashMap<String, String>(){{
         put("1","https://freetts.com/audio/1d78b283-5075-4375-8831-8e2399fdfc05.mp3");
         put("2","https://freetts.com/audio/0ac632a8-0d48-4569-8ff1-b63570d0d877.mp3");
